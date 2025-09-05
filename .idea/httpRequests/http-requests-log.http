@@ -1,3 +1,41 @@
+POST http://localhost:4000/api/v1/patients
+Content-Type: application/json
+Content-Length: 190
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "Sujatha Melanta",
+    "email": "sujatha.melanta@example.com",
+    "address": "125 Main St, Anytown, USA",
+    "dateOfBirth": "1990-01-01",
+    "registeredDate": "2022-01-01"
+}
+
+<> 2025-09-05T220922.200.json
+
+###
+
+GRPC localhost:9001/BillingService/CreateBillingAccountPOST http://localhost:4000/api/v1/patients
+Content-Type: application/json
+Content-Length: 192
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "name": "Kshitija Darekar",
+    "email": "kshitija.darekar@example.com",
+    "address": "125 Main St, Anytown, USA",
+    "dateOfBirth": "1990-01-01",
+    "registeredDate": "2022-01-01"
+}
+
+<> 2025-09-05T210005.200.json
+
+###
+
 GRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGRPC localhost:9001/BillingService/CreateBillingAccountGET http://localhost:4000/api/v1/patients
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.1
 Accept-Encoding: br, deflate, gzip, x-gzip
