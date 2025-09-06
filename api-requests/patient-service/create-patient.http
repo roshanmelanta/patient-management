@@ -3,9 +3,9 @@ POST http://localhost:4000/api/v1/patients
 Content-Type: application/json
 
 {
-    "name": "Nitesh Kamath",
-    "email": "nitesh.kamath@example.com",
-    "address": "125 Main St, Anytown, USA",
+    "name": "Rohit Sharma",
+    "email": "hitman@example.com",
+    "address": "125 Main St, Bandra, Mumbai",
     "dateOfBirth": "1990-01-01",
     "registeredDate": "2022-01-01"
 }
